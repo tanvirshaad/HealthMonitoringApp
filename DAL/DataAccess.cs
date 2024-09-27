@@ -34,6 +34,15 @@ namespace DAL
         public static IAuth AuthData()
         {
            return new UserRepo();
+        }  
+        
+        public static IRepoNew<HealthMetrics, int> ProgressData()
+        {
+            return new HealthMetricsRepo();
+        }
+        public static IRepoNew<HealthGoals, int> HealthGoalsProgress()
+        {
+            return new HealthGoalsRepo();
         }
     }
 }

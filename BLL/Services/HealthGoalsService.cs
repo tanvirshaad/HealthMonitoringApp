@@ -38,6 +38,11 @@ namespace BLL.Services
             var data = DataAccess.HealthGoalsData().Get(id);
             return GetMapper().Map<HealthGoalsDTO>(data);
         }
+        public static HealthGoalsDTO GetByUserId(int id)
+        {
+            var data = DataAccess.HealthGoalsProgress().GetByUserId(id);
+            return GetMapper().Map<HealthGoalsDTO>(data);
+        }
         public static bool Update(HealthGoalsDTO obj)
         {
             var data = GetMapper().Map<HealthGoals>(obj);

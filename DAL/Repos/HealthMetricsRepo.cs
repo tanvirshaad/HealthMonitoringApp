@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class HealthMetricsRepo : Repo, IRepo<HealthMetrics, int, bool>
+    internal class HealthMetricsRepo : Repo, IRepo<HealthMetrics, int, bool>, IRepoNew<HealthMetrics, int>
     {
         public bool Create(HealthMetrics obj)
         {
@@ -32,6 +32,18 @@ namespace DAL.Repos
         {
             return db.HealthMetrics.Find(id);
         }
+        //get healthmetric of a specific UserId
+        public HealthMetrics GetByUserId(int id)
+        {
+            return db.HealthMetrics.SingleOrDefault(x => x.UserId.Equals(id));
+            
+        }
+        /*
+         var user = db.User.SingleOrDefault(
+                x => x.Username.Equals(username) && x.Password.Equals(password)
+            );
+         */
+
 
         public bool Update(HealthMetrics obj)
         {
@@ -41,3 +53,4 @@ namespace DAL.Repos
         }
     }
 }
+

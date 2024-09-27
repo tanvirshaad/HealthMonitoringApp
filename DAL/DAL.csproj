@@ -59,7 +59,9 @@
     <Compile Include="EF\TableModels\SharedData.cs" />
     <Compile Include="EF\TableModels\User.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IProgress.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Interfaces\IRepoNew.cs" />
     <Compile Include="Migrations\202409261157338_initDB.cs" />
     <Compile Include="Migrations\202409261157338_initDB.Designer.cs">
       <DependentUpon>202409261157338_initDB.cs</DependentUpon>

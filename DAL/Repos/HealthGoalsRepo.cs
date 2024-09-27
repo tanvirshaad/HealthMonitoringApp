@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class HealthGoalsRepo: Repo, IRepo<HealthGoals, int, bool>
+    internal class HealthGoalsRepo : Repo, IRepo<HealthGoals, int, bool>, IRepoNew<HealthGoals, int>
     {
         public bool Create(HealthGoals obj)
         {
@@ -39,5 +39,12 @@ namespace DAL.Repos
             db.Entry(exobj).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0;
         }
+        //get healthmetric of a specific UserId
+        public HealthGoals GetByUserId(int id)
+        {
+            return db.HealthGoals.SingleOrDefault(x => x.UserId.Equals(id));
+
+        }
     }
 }
+

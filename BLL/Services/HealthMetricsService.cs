@@ -25,6 +25,7 @@ namespace BLL.Services
         public static bool Create(HealthMetricsDTO obj)
         {
             var data = GetMapper().Map<HealthMetrics>(obj);
+            
             data.DateRecorded = DateTime.Now;
             return DataAccess.HealthMetricsData().Create(data);
         }
@@ -38,6 +39,13 @@ namespace BLL.Services
             var data = DataAccess.HealthMetricsData().Get(id);
             return GetMapper().Map<HealthMetricsDTO>(data);
         }
+        //get healthmetric of a single UserId
+        public static HealthMetricsDTO GetByUserId(int id)
+        {
+            var data = DataAccess.ProgressData().GetByUserId(id);
+            return GetMapper().Map<HealthMetricsDTO>(data);
+        }
+
         public static bool Update(HealthMetricsDTO obj)
         {
             var data = GetMapper().Map<HealthMetrics>(obj);

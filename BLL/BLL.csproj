@@ -48,6 +48,7 @@
     <Compile Include="DTOs\HealthDeviceDTO.cs" />
     <Compile Include="DTOs\HealthGoalsDTO.cs" />
     <Compile Include="DTOs\HealthMetricsDTO.cs" />
+    <Compile Include="DTOs\HealthProgressDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\SharedDataDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Services\HealthDeviceService.cs" />
     <Compile Include="Services\HealthGoalsService.cs" />
     <Compile Include="Services\HealthMetricsService.cs" />
+    <Compile Include="Services\HealthProgressService.cs" />
     <Compile Include="Services\SharedDataService.cs" />
   </ItemGroup>
   <ItemGroup>
