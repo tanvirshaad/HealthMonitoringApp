@@ -25,6 +25,7 @@ namespace BLL.Services
         public static bool Create(SharedDataDTO obj)
         {
             var data = GetMapper().Map<SharedData>(obj);
+            data.DateShared = DateTime.Now;
             return DataAccess.SharedData().Create(data);
         }
         public static List<SharedDataDTO> Get()
@@ -40,6 +41,7 @@ namespace BLL.Services
         public static bool Update(SharedDataDTO obj)
         {
             var data = GetMapper().Map<SharedData>(obj);
+            data.DateShared = DateTime.Now;
             return DataAccess.SharedData().Update(data);
         }
         public static bool Delete(int id)

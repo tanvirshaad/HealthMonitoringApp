@@ -31,5 +31,9 @@ namespace DAL
         {
             return new HealthDeviceRepo();
         }
+        public static IAuth AuthData()
+        {
+           return new UserRepo();
+        }
     }
 }

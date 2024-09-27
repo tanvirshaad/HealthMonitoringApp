@@ -58,6 +58,7 @@
     <Compile Include="EF\TableModels\HealthMetrics.cs" />
     <Compile Include="EF\TableModels\SharedData.cs" />
     <Compile Include="EF\TableModels\User.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202409261157338_initDB.cs" />
     <Compile Include="Migrations\202409261157338_initDB.Designer.cs">

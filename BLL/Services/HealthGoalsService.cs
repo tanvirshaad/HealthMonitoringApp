@@ -25,6 +25,7 @@ namespace BLL.Services
         public static bool Create(HealthGoalsDTO obj)
         {
             var data = GetMapper().Map<HealthGoals>(obj);
+            data.StartDate = DateTime.Now;
             return DataAccess.HealthGoalsData().Create(data);
         }
         public static List<HealthGoalsDTO> Get()
@@ -40,6 +41,7 @@ namespace BLL.Services
         public static bool Update(HealthGoalsDTO obj)
         {
             var data = GetMapper().Map<HealthGoals>(obj);
+            data.StartDate = DateTime.Now;
             return DataAccess.HealthGoalsData().Update(data);
         }
         public static bool Delete(int id)
