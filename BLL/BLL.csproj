@@ -51,6 +51,7 @@
     <Compile Include="DTOs\HealthProgressDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\SharedDataDTO.cs" />
+    <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\HealthDeviceService.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Services\HealthMetricsService.cs" />
     <Compile Include="Services\HealthProgressService.cs" />
     <Compile Include="Services\SharedDataService.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

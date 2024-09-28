@@ -32,6 +32,11 @@ namespace DAL.Repos
         {
             return db.HealthMetrics.Find(id);
         }
+        //get all the healthmetrics of a specific UserId
+        public List<HealthMetrics> GetAllByUserId(int id)
+        {
+            return db.HealthMetrics.Where(x => x.UserId.Equals(id)).ToList();
+        }
         //get healthmetric of a specific UserId
         public HealthMetrics GetByUserId(int id)
         {

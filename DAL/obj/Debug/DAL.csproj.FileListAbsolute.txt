@@ -12,3 +12,4 @@ C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\bin\Debug\EntityFramew
 C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.Migrations.initDB.resources
 C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.Migrations.Relationship_changed.resources

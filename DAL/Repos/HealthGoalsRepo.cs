@@ -39,11 +39,16 @@ namespace DAL.Repos
             db.Entry(exobj).CurrentValues.SetValues(obj);
             return db.SaveChanges() > 0;
         }
-        //get healthmetric of a specific UserId
+        //get healthgoals of a specific UserId
         public HealthGoals GetByUserId(int id)
         {
             return db.HealthGoals.SingleOrDefault(x => x.UserId.Equals(id));
 
+        }
+        //get all the healthgoals of a specific UserId
+        public List<HealthGoals> GetAllByUserId(int id)
+        {
+            return db.HealthGoals.Where(x => x.UserId.Equals(id)).ToList();
         }
     }
 }

@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography.X509Certificates;
 
 namespace DAL.EF.TableModels
 {
@@ -28,13 +29,19 @@ namespace DAL.EF.TableModels
         [Required]
         public DateTime DateOfBirth { get; set; }
 
+        //one to one relationship with HealthGoals
+        /*public HealthGoals HealthGoals { get; set; }*/
+        //one to many relationship with HealthMetrics
+        public ICollection<HealthMetrics> HealthMetrics { get; set; }
+        //one to many relationship with HealthDevices
         public ICollection<HealthDevice> HealthDevices { get; set; }
+        //one to many relationship with SharedData
         public ICollection<SharedData> SharedDatas { get; set; }
-
-        public User()
-        {
+        public User() { 
+            HealthMetrics = new List<HealthMetrics>();
             HealthDevices = new List<HealthDevice>();
             SharedDatas = new List<SharedData>();
         }
+
     }
 }

@@ -9,5 +9,6 @@ namespace DAL.Interfaces
     public interface IRepoNew<CLASS, ID>
     {
         CLASS GetByUserId(ID id);
+        List<CLASS> GetAllByUserId(ID id);
     }
 }

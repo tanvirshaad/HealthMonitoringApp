@@ -46,6 +46,12 @@ namespace BLL.Services
             return GetMapper().Map<HealthMetricsDTO>(data);
         }
 
+        //get all healthmetric of a single UserId
+        public static List<HealthMetricsDTO> GetAllByUserId(int id)
+        {
+            var data = DataAccess.ProgressData().GetAllByUserId(id);
+            return GetMapper().Map<List<HealthMetricsDTO>>(data);
+        }
         public static bool Update(HealthMetricsDTO obj)
         {
             var data = GetMapper().Map<HealthMetrics>(obj);

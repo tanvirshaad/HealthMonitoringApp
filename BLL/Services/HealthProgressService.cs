@@ -12,7 +12,9 @@ namespace BLL.Services
     {
         public static HealthProgressDTO GetProgress(int id)
         {
-            var metrics = DataAccess.ProgressData().GetByUserId(id);
+            var metrics = DataAccess.ProgressData().GetAllByUserId(id).OrderBy(m => m.DateRecorded).ToList();
+            var LatestMetrics = metrics.LastOrDefault();
+            var initialMetrics = metrics.FirstOrDefault();
             var goals = DataAccess.HealthGoalsProgress().GetByUserId(id);
 
             if (metrics == null || goals == null)
@@ -22,9 +24,14 @@ namespace BLL.Services
             //needs to be changed to a more accurate formula
             var progress = new HealthProgressDTO
             {
-                WeightProgress = ((goals.TargetWeight - metrics.Weight ) /metrics.Weight) * 100,
-                SystolicBPProgress = (goals.TargetSyBP / metrics.SyBP ) * 100,
-                DiastolicBPProgress = (goals.TargetDiBP / metrics.DiBP) * 100
+                WeightProgress = ((initialMetrics.Weight - LatestMetrics.Weight) / (initialMetrics.Weight - goals.TargetWeight)) * 100,
+                //weightprogress is giving 0.0 as output why?
+
+
+
+                /*SystolicBPProgress = (goals.TargetSyBP / metrics.SyBP ) * 100,
+                DiastolicBPProgress = (goals.TargetDiBP / metrics.DiBP) * 100*/
+                SystolicBPProgress = initialMetrics.Weight
             };
             return progress;
         }
