@@ -42,6 +42,22 @@ namespace HealthMonitoring.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+        //get goals based on UserId
+        [Route("usergoals/{id}")]
+        [HttpGet]
+        public HttpResponseMessage GetUserGoals(int id)
+        {
+            try
+            {
+                var data = HealthGoalsService.GetByUserId(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
         [Route("create")]
         [HttpPost]
         public HttpResponseMessage Create(HealthGoalsDTO obj)
