@@ -3,8 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|c:\\users\\tanvi\\desktop\\.net_practice\\healthmonitoring\\bll\\services\\healthprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|c:\\users\\tanvi\\desktop\\.net_practice\\healthmonitoring\\bll\\services\\trendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\trendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|c:\\users\\tanvi\\desktop\\.net_practice\\healthmonitoring\\bll\\dtos\\trenddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\trenddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\healthprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\healthprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|c:\\users\\tanvi\\desktop\\.net_practice\\healthmonitoring\\healthmonitoring\\controllers\\trendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\trendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\statservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\statservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\statcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\statcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\dtos\\statdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\statdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|c:\\users\\tanvi\\desktop\\.net_practice\\healthmonitoring\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\shareddatarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\shareddatarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\healthmetricsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\healthmetricsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\dtos\\healthprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\healthprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\healthdevicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\healthdevicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\healthmetricsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\healthmetricsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\shareddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\shareddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\ef\\tablemodels\\healthmetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\healthmetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\healthprogresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,36 +95,12 @@
       "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\healthmetricsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\healthmetricsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\healthmetricsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\healthmetricsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\shareddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\shareddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\dtos\\healthmetricsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,28 +143,8 @@
       "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\dtos\\healthprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\healthprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\ef\\tablemodels\\healthmetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\healthmetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\shareddatarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\shareddatarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\migrations\\202409261157338_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202409261157338_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\shareddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|solutionrelative:bll\\services\\shareddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{108803F3-7663-47C3-946D-195220B16983}|BLL\\BLL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\bll\\services\\healthdeviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\dal\\repos\\healthdevicerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CE2B78-8028-4A8B-BA9A-7C9A7FB511A7}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\healthdevicerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\healthdevicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|solutionrelative:healthmonitoring\\controllers\\healthdevicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E59751-DC3E-4DAE-95B5-CFF3398C9DB4}|HealthMonitoring\\HealthMonitoring.csproj|C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\healthmonitoring\\controllers\\healthgoalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,288 +194,151 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRepoNew.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepoNew.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepoNew.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepoNew.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IRepoNew.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "DocumentIndex": 0,
+              "Title": "TrendService.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\TrendService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\TrendService.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\TrendService.cs",
+              "RelativeToolTip": "BLL\\Services\\TrendService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:34:22.769Z"
+              "WhenOpened": "2024-09-29T10:05:31.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TrendDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\TrendDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\TrendDTO.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\TrendDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\TrendDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:49:19.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HealthProgressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthProgressDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\HealthProgressDTO.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthProgressDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\HealthProgressDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:11:34.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\StatController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\StatController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\StatController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\StatController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:08:42.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatService.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\StatService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StatService.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\StatService.cs",
+              "RelativeToolTip": "BLL\\Services\\StatService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T11:51:49.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\StatDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\StatDTO.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\StatDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\StatDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:01:48.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HealthProgressService.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthProgressService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\HealthProgressService.cs",
               "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthProgressService.cs",
               "RelativeToolTip": "BLL\\Services\\HealthProgressService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAowBYAAAANAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowAwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T12:47:44.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HealthMetricsService.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthMetricsService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\HealthMetricsService.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthMetricsService.cs",
-              "RelativeToolTip": "BLL\\Services\\HealthMetricsService.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAxwDAAAAAxAAAA",
+              "DocumentIndex": 3,
+              "Title": "TrendController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\TrendController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\TrendController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\TrendController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\TrendController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:55:29.434Z"
+              "WhenOpened": "2024-09-29T10:12:26.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:07:02.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HealthGoalsRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthGoalsRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\HealthGoalsRepo.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthGoalsRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\HealthGoalsRepo.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAUwDMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:41:12.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\DataAccess.cs",
-              "RelativeDocumentMoniker": "DAL\\DataAccess.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\DataAccess.cs",
-              "RelativeToolTip": "DAL\\DataAccess.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAxwCgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:51:15.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T09:43:45.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HealthProgressController.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthProgressController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthProgressController.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthProgressController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthProgressController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T13:05:09.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HealthMetricsRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthMetricsRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\HealthMetricsRepo.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthMetricsRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\HealthMetricsRepo.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAywCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:21:38.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SharedDataController.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\SharedDataController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\SharedDataController.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\SharedDataController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\SharedDataController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:53:06.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\UserRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
               "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\UserRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAYwC8AAAAgAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T19:23:14.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HealthMetricsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthMetricsDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\HealthMetricsDTO.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthMetricsDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\HealthMetricsDTO.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:59:26.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\UserService.cs",
               "RelativeToolTip": "BLL\\Services\\UserService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAywCwAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T09:46:05.808Z"
+              "WhenOpened": "2024-09-28T09:46:05.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBQAAAAsAAAA",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T09:48:24.509Z"
+              "WhenOpened": "2024-09-28T09:43:45.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\User.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\User.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\User.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\User.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAiwA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:40:51.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HealthMetricsController.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricsController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthMetricsController.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricsController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthMetricsController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAmwFgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:12:02.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "202409280651005_Relationship_changed.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Migrations\\202409280651005_Relationship_changed.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\202409280651005_Relationship_changed.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Migrations\\202409280651005_Relationship_changed.cs",
-              "RelativeToolTip": "DAL\\Migrations\\202409280651005_Relationship_changed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T06:51:08.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HealthGoalsService.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthGoalsService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\HealthGoalsService.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthGoalsService.cs",
-              "RelativeToolTip": "BLL\\Services\\HealthGoalsService.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAxwDYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:56:51.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SharedDataDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\SharedDataDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\SharedDataDTO.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\SharedDataDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\SharedDataDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T14:07:45.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:26:52.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IProgress.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IProgress.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IProgress.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IProgress.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IProgress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:21:34.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SharedData.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\SharedData.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\SharedData.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\SharedData.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\SharedData.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:36:39.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HealthGoals.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthGoals.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\HealthGoals.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthGoals.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\HealthGoals.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAcwA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:35:28.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 10,
               "Title": "IAuth.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IAuth.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IAuth.cs",
@@ -463,43 +350,283 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HealthMetrics.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthMetrics.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\HealthMetrics.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthMetrics.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\HealthMetrics.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:34:48.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "HealthProgressDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthProgressDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\HealthProgressDTO.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthProgressDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\HealthProgressDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T20:11:34.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "SharedDataRepo.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\SharedDataRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\SharedDataRepo.cs",
               "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\SharedDataRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\SharedDataRepo.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCUAAAAkAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwCUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T13:45:33.63Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T09:48:24.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HealthMetricsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthMetricsRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\HealthMetricsRepo.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthMetricsRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\HealthMetricsRepo.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:21:38.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HealthMetricsService.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthMetricsService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\HealthMetricsService.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthMetricsService.cs",
+              "RelativeToolTip": "BLL\\Services\\HealthMetricsService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA+wDAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:55:29.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HealthDeviceController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthDeviceController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthDeviceController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthDeviceController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthDeviceController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:46:21.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:07:02.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HealthGoalsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthGoalsRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\HealthGoalsRepo.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthGoalsRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\HealthGoalsRepo.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAUwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:41:12.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SharedDataService.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\SharedDataService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\SharedDataService.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\SharedDataService.cs",
+              "RelativeToolTip": "BLL\\Services\\SharedDataService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:58:00.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HealthMetrics.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthMetrics.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\HealthMetrics.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthMetrics.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\HealthMetrics.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:34:48.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepoNew.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepoNew.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepoNew.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IRepoNew.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepoNew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:34:22.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\DataAccess.cs",
+              "RelativeToolTip": "DAL\\DataAccess.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAxwCgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:51:15.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HealthProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthProgressController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthProgressController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthProgressController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthProgressController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:05:09.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SharedDataController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\SharedDataController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\SharedDataController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\SharedDataController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\SharedDataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:53:06.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HealthMetricsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthMetricsDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\HealthMetricsDTO.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthMetricsDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\HealthMetricsDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:59:26.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\User.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\User.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:40:51.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HealthMetricsController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricsController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthMetricsController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthMetricsController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthMetricsController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAmwFgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:12:02.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "202409280651005_Relationship_changed.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Migrations\\202409280651005_Relationship_changed.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202409280651005_Relationship_changed.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Migrations\\202409280651005_Relationship_changed.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202409280651005_Relationship_changed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T06:51:08.672Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "HealthGoalsService.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthGoalsService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\HealthGoalsService.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthGoalsService.cs",
+              "RelativeToolTip": "BLL\\Services\\HealthGoalsService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAxwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:56:51.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SharedDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\SharedDataDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\SharedDataDTO.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\SharedDataDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\SharedDataDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:07:45.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "HealthMonitoring\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:26:52.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IProgress.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IProgress.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IProgress.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Interfaces\\IProgress.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IProgress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:21:34.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SharedData.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\SharedData.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\SharedData.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\SharedData.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\SharedData.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:36:39.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HealthGoals.cs",
+              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthGoals.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\HealthGoals.cs",
+              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthGoals.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\HealthGoals.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:35:28.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "202409261157338_initDB.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Migrations\\202409261157338_initDB.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\202409261157338_initDB.cs",
@@ -511,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "HealthDeviceService.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\HealthDeviceService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\HealthDeviceService.cs",
@@ -523,19 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "SharedDataService.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\SharedDataService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\SharedDataService.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\Services\\SharedDataService.cs",
-              "RelativeToolTip": "BLL\\Services\\SharedDataService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAywCsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:58:00.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDTO.cs",
@@ -547,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "HealthDevice.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\TableModels\\HealthDevice.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\HealthDevice.cs",
@@ -559,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "HContext.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\EF\\HContext.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\HContext.cs",
@@ -571,19 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "HealthDeviceController.cs",
-              "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthDeviceController.cs",
-              "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthDeviceController.cs",
-              "ToolTip": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthDeviceController.cs",
-              "RelativeToolTip": "HealthMonitoring\\Controllers\\HealthDeviceController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:46:21.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "HealthDeviceRepo.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Repos\\HealthDeviceRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\HealthDeviceRepo.cs",
@@ -595,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "HealthGoalsController.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Controllers\\HealthGoalsController.cs",
               "RelativeDocumentMoniker": "HealthMonitoring\\Controllers\\HealthGoalsController.cs",
@@ -607,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "HealthGoalsDTO.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthGoalsDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\HealthGoalsDTO.cs",
@@ -619,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "HealthDeviceDTO.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\BLL\\DTOs\\HealthDeviceDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\HealthDeviceDTO.cs",
@@ -631,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\DAL\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
@@ -643,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\tanvi\\Desktop\\.net_practice\\HealthMonitoring\\HealthMonitoring\\Web.config",
               "RelativeDocumentMoniker": "HealthMonitoring\\Web.config",

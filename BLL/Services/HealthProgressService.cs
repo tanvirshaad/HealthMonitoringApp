@@ -21,17 +21,34 @@ namespace BLL.Services
             {
                 return null;
             }
-            //needs to be changed to a more accurate formula
+            var upWeight = (decimal)(initialMetrics.Weight - LatestMetrics.Weight);
+            var downWeight = (decimal)(initialMetrics.Weight - goals.TargetWeight);
+            var upSyBP = (decimal)(initialMetrics.SyBP - LatestMetrics.SyBP);
+            var downSyBP = (decimal)(initialMetrics.SyBP - goals.TargetSyBP);
+            var upDiBP = (decimal)(initialMetrics.DiBP - LatestMetrics.DiBP);
+            var downDiBP = (decimal)(initialMetrics.DiBP - goals.TargetDiBP);
+            decimal WeightProgress = 0;
+            decimal SystolicBPProgress = 0;
+            decimal DiastolicBPProgress = 0;
+            if (upWeight != 0 && downWeight != 0)
+            {
+                WeightProgress = (decimal)(upWeight / downWeight) * 100;
+            }
+            if (upSyBP != 0 && downSyBP != 0)
+            {
+                SystolicBPProgress = (decimal)(upSyBP / downSyBP) * 100;
+            }
+            if (upDiBP != 0 && downDiBP != 0)
+            {
+                DiastolicBPProgress = (decimal)(upDiBP / downDiBP) * 100;
+            }
+            
+
             var progress = new HealthProgressDTO
             {
-                WeightProgress = ((initialMetrics.Weight - LatestMetrics.Weight) / (initialMetrics.Weight - goals.TargetWeight)) * 100,
-                //weightprogress is giving 0.0 as output why?
-
-
-
-                /*SystolicBPProgress = (goals.TargetSyBP / metrics.SyBP ) * 100,
-                DiastolicBPProgress = (goals.TargetDiBP / metrics.DiBP) * 100*/
-                SystolicBPProgress = initialMetrics.Weight
+                WeightProgress = WeightProgress,
+                SystolicBPProgress = SystolicBPProgress,
+                DiastolicBPProgress = DiastolicBPProgress
             };
             return progress;
         }

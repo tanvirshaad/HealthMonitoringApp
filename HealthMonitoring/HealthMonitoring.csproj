@@ -98,6 +98,8 @@
     <Compile Include="Controllers\HealthProgressController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SharedDataController.cs" />
+    <Compile Include="Controllers\StatController.cs" />
+    <Compile Include="Controllers\TrendController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
