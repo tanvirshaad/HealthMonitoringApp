@@ -28,6 +28,8 @@ namespace DAL.EF.TableModels
         public string LastName { get; set; }
         [Required]
         public DateTime DateOfBirth { get; set; }
+        //nullable status
+        public string Status { get; set; }
 
         //one to one relationship with HealthGoals
         /*public HealthGoals HealthGoals { get; set; }*/

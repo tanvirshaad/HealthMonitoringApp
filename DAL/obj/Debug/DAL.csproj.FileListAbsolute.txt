@@ -13,3 +13,4 @@ C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.csproj.U
 C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.Migrations.initDB.resources
 C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.Migrations.Relationship_changed.resources
+C:\Users\tanvi\Desktop\.net_practice\HealthMonitoring\DAL\obj\Debug\DAL.Migrations.UserStatus.resources

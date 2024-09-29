@@ -42,6 +42,12 @@ namespace BLL.Services
             var data = GetMapper().Map<User>(obj);
             return DataAccess.UserData().Update(data);
         }
+        public static bool StatusUpdate(int id)
+        {
+            var data = DataAccess.UserData().Get(id);
+            data.Status = "Deleted";
+            return DataAccess.UserData().Update(data);
+        }
         public static bool Delete(int id)
         {
             return DataAccess.UserData().Delete(id);

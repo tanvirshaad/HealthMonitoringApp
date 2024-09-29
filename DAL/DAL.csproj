@@ -59,7 +59,6 @@
     <Compile Include="EF\TableModels\SharedData.cs" />
     <Compile Include="EF\TableModels\User.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
-    <Compile Include="Interfaces\IProgress.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Interfaces\IRepoNew.cs" />
     <Compile Include="Migrations\202409261157338_initDB.cs" />
@@ -69,6 +68,10 @@
     <Compile Include="Migrations\202409280651005_Relationship_changed.cs" />
     <Compile Include="Migrations\202409280651005_Relationship_changed.Designer.cs">
       <DependentUpon>202409280651005_Relationship_changed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291709284_UserStatus.cs" />
+    <Compile Include="Migrations\202409291709284_UserStatus.Designer.cs">
+      <DependentUpon>202409291709284_UserStatus.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409280651005_Relationship_changed.resx">
       <DependentUpon>202409280651005_Relationship_changed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291709284_UserStatus.resx">
+      <DependentUpon>202409291709284_UserStatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

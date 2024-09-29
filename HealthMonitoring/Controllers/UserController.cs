@@ -87,6 +87,21 @@ namespace HealthMonitoring.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+        [HttpGet]
+        [Route("statusupdate/{id}")]
+        public HttpResponseMessage StatusUpdate(int id)
+        {
+            try
+            {
+                var data = UserService.StatusUpdate(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
 
     }
 }
