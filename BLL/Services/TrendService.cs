@@ -13,32 +13,23 @@ namespace BLL.Services
         public static TrendDTO GetTrend(int id)
         {
             var metrics = DataAccess.ProgressData().GetAllByUserId(id);
-            var avgWeight = (decimal)metrics.Average(m => m.Weight);
-            var avgSystolicBP = (decimal)metrics.Average(m => m.SyBP);
-            var avgDiastolicBP = (decimal)metrics.Average(m => m.DiBP);
-            var maxWeight = metrics.Max(m => m.Weight);
-            var minWeight = metrics.Min(m => m.Weight);
-            var maxSystolicBP = metrics.Max(m => m.SyBP);
-            var minSystolicBP = metrics.Min(m => m.SyBP);
-            var maxDiastolicBP = metrics.Max(m => m.DiBP);
-            var minDiastolicBP = metrics.Min(m => m.DiBP);
-            var latestMetrics = metrics.OrderByDescending(m => m.DateRecorded).FirstOrDefault();
-
-            var trends = new TrendDTO
+            var trends = new TrendDTO();
+            metrics.ForEach(m =>
             {
-                CurrentWeight = latestMetrics.Weight,
-                CurrentSystolicBP = latestMetrics.SyBP,
-                CurrentDiastolicBP = latestMetrics.DiBP,
-                AvgWeight = avgWeight,
-                AvgSystolicBP = avgSystolicBP,
-                AvgDiastolicBP = avgDiastolicBP,
-                MaxWeight = maxWeight,
-                MinWeight = minWeight,
-                MaxSystolicBP = maxSystolicBP,
-                MinSystolicBP = minSystolicBP,
-                MaxDiastolicBP = maxDiastolicBP,
-                MinDiastolicBP = minDiastolicBP
-            };
+                //get the metric types name
+                trends.MetricTypes.Add(m.MetricType);
+                //get the current value of the metric type
+                trends.CurrentValues.Add(m.Value);
+                //get the max value of the metric type
+                trends.MaxValues.Add(metrics.Where(x => x.MetricType == m.MetricType).Max(x => x.Value));
+                //get the min value of the metric type
+                trends.MinValues.Add(metrics.Where(x => x.MetricType == m.MetricType).Min(x => x.Value));
+
+                //get average value of current metric type
+                trends.AvgValues.Add(metrics.Where(x => x.MetricType == m.MetricType).Average(x => x.Value));
+            });
+
+            
 
             return trends;
         }

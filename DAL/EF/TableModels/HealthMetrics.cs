@@ -13,9 +13,9 @@ namespace DAL.EF.TableModels
         public virtual User User { get; set; }
         [ForeignKey("User")]
         public int UserId { get; set; }
-        public int Weight { get; set; }
-        public int SyBP { get; set; }
-        public int DiBP { get; set; }
+        public string MetricType { get; set; }
+        public decimal Value { get; set; }
+        public string Unit { get; set; }
         public DateTime DateRecorded { get; set; }
     }
 }

@@ -36,11 +36,15 @@ namespace DAL.EF.TableModels
         //one to many relationship with HealthMetrics
         public ICollection<HealthMetrics> HealthMetrics { get; set; }
         //one to many relationship with HealthDevices
+
+        //one to many relationship with HealthGoals
+        public ICollection<HealthGoals> HealthGoals { get; set; }
         public ICollection<HealthDevice> HealthDevices { get; set; }
         //one to many relationship with SharedData
         public ICollection<SharedData> SharedDatas { get; set; }
         public User() { 
             HealthMetrics = new List<HealthMetrics>();
+            HealthGoals = new List<HealthGoals>();
             HealthDevices = new List<HealthDevice>();
             SharedDatas = new List<SharedData>();
         }

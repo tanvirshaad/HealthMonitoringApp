@@ -11,9 +11,10 @@ namespace BLL.DTOs
     {
         public int Id { get; set; }
         public int UserId { get; set; }
-        public int TargetWeight { get; set; }
-        public int TargetSyBP { get; set; }
-        public int TargetDiBP { get; set; }
+        public string GoalType { get; set; }
+        public decimal TargetValue { get; set; }
+        public string Unit { get; set; }
         public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
     }
 }

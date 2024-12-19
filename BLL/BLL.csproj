@@ -48,6 +48,7 @@
     <Compile Include="DTOs\HealthDeviceDTO.cs" />
     <Compile Include="DTOs\HealthGoalsDTO.cs" />
     <Compile Include="DTOs\HealthMetricsDTO.cs" />
+    <Compile Include="DTOs\HealthProgressCheckDTO.cs" />
     <Compile Include="DTOs\HealthProgressDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\SharedDataDTO.cs" />

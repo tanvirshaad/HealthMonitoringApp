@@ -10,13 +10,11 @@ namespace BLL.DTOs
     {
        
         
-        //list of weight
-        public List<int> WeightList { get; set; }
-        //list of systolic blood pressure
-        public List<int> SystolicBPList { get; set; }
-        //list of diastolic blood pressure
-        public List<int> DiastolicBPList { get; set; }
-        // list of dates
+
+        public List<string> MetricType { get; set; }
+
+        public List<decimal> MetricValue { get; set; }
+
         public List<DateTime> DateList { get; set; }
 
     }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    public class HealthProgressDTO
+    public class HealthProgressCheckDTO
     {
         public string MetricType { get; set; }
-        public decimal ProgressValue { get; set; }
+        public int Id { get; set; }
     }
 }

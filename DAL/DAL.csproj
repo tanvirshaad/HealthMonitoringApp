@@ -73,6 +73,14 @@
     <Compile Include="Migrations\202409291709284_UserStatus.Designer.cs">
       <DependentUpon>202409291709284_UserStatus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202410061136452_Relationship_updated.cs" />
+    <Compile Include="Migrations\202410061136452_Relationship_updated.Designer.cs">
+      <DependentUpon>202410061136452_Relationship_updated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410061139476_new_collection-added.cs" />
+    <Compile Include="Migrations\202410061139476_new_collection-added.Designer.cs">
+      <DependentUpon>202410061139476_new_collection-added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\HealthDeviceRepo.cs" />
@@ -95,6 +103,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409291709284_UserStatus.resx">
       <DependentUpon>202409291709284_UserStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410061136452_Relationship_updated.resx">
+      <DependentUpon>202410061136452_Relationship_updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410061139476_new_collection-added.resx">
+      <DependentUpon>202410061139476_new_collection-added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,8 +1,10 @@
 ﻿using BLL.DTOs;
 using DAL;
+using DAL.EF.TableModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,47 +12,99 @@ namespace BLL.Services
 {
     public class HealthProgressService
     {
-        public static HealthProgressDTO GetProgress(int id)
-        {
-            var metrics = DataAccess.ProgressData().GetAllByUserId(id).OrderBy(m => m.DateRecorded).ToList();
-            var LatestMetrics = metrics.LastOrDefault();
-            var initialMetrics = metrics.FirstOrDefault();
-            var goals = DataAccess.HealthGoalsProgress().GetByUserId(id);
+        //public static HealthProgressDTO GetProgress(int id)
+        //{
+        //    var metrics = DataAccess.ProgressData().GetAllByUserId(id).OrderBy(m => m.DateRecorded).ToList();
+        //    var goals = DataAccess.HealthGoalsProgress().GetAllByUserId(id);
 
-            if (metrics == null || goals == null)
+        //    if (metrics == null || goals == null)
+        //    {
+        //        return null;
+        //    }
+
+        //    var progress = new HealthProgressDTO();
+
+        //    // Group metrics by their type
+        //    var groupedMetrics = metrics.GroupBy(m => m.MetricType);
+
+        //    foreach (var group in groupedMetrics)
+        //    {
+        //        var metricType = group.Key;
+        //        var metricList = group.OrderBy(m => m.DateRecorded).ToList();
+        //        var initialMetric = metricList.FirstOrDefault();
+        //        var latestMetric = metricList.LastOrDefault();
+
+        //        if (initialMetric == null || latestMetric == null)
+        //        {
+        //            continue;
+        //        }
+
+        //        var goal = goals.FirstOrDefault(g => g.GoalType == metricType);
+        //        if (goal == null)
+        //        {
+        //            continue;
+        //        }
+
+        //        var upValue = (decimal)(initialMetric.Value - latestMetric.Value);
+        //        var downValue = (decimal)(initialMetric.Value - goal.TargetValue);
+        //        decimal progressValue = 0;
+
+        //        if (upValue != 0 && downValue != 0)
+        //        {
+        //            progressValue = (upValue / downValue) * 100;
+        //        }
+
+        //        // Dynamically set the progress value based on the metric type
+        //        SetProgressValue(progress, metricType, progressValue);
+        //    }
+
+        //    return progress;
+        //}
+
+        ////write the setProgressValue method here
+        //private static void SetProgressValue(HealthProgressDTO progress, string metricType, decimal progressValue)
+        //{
+        //    // Use reflection to set the progress value based on the metric type
+        //    var propertyName = $"{metricType}Progress";
+        //    var property = typeof(HealthProgressDTO).GetProperty(propertyName, BindingFlags.Public | BindingFlags.Instance);
+
+        //    if (property != null && property.PropertyType == typeof(decimal))
+        //    {
+        //        property.SetValue(progress, progressValue);
+        //    }
+        //}
+        public static HealthProgressDTO GetProgress(string metricType, int id)
+        {
+            var goals = DataAccess.HealthGoalsProgress().GetAllByUserId(id);
+            var goalMetric = goals.FirstOrDefault(g => g.GoalType == metricType);
+            if(goalMetric == null)
             {
                 return null;
             }
-            var upWeight = (decimal)(initialMetrics.Weight - LatestMetrics.Weight);
-            var downWeight = (decimal)(initialMetrics.Weight - goals.TargetWeight);
-            var upSyBP = (decimal)(initialMetrics.SyBP - LatestMetrics.SyBP);
-            var downSyBP = (decimal)(initialMetrics.SyBP - goals.TargetSyBP);
-            var upDiBP = (decimal)(initialMetrics.DiBP - LatestMetrics.DiBP);
-            var downDiBP = (decimal)(initialMetrics.DiBP - goals.TargetDiBP);
-            decimal WeightProgress = 0;
-            decimal SystolicBPProgress = 0;
-            decimal DiastolicBPProgress = 0;
-            if (upWeight != 0 && downWeight != 0)
+            var progress = new HealthProgressDTO();
+            var metrics = DataAccess.ProgressData().GetAllByUserId(id).Where(m => m.MetricType == metricType).OrderBy(m => m.DateRecorded).ToList();
+            if (metrics == null)
             {
-                WeightProgress = (decimal)(upWeight / downWeight) * 100;
+                return null;
             }
-            if (upSyBP != 0 && downSyBP != 0)
+            var initialMetric = metrics.FirstOrDefault();
+            var latestMetric = metrics.LastOrDefault();
+            if (initialMetric == null || latestMetric == null)
             {
-                SystolicBPProgress = (decimal)(upSyBP / downSyBP) * 100;
+                return null;
             }
-            if (upDiBP != 0 && downDiBP != 0)
+            var upValue = (decimal)(initialMetric.Value - latestMetric.Value);
+            var downValue = (decimal)(initialMetric.Value - goalMetric.TargetValue);
+            decimal progressValue = 0;
+            if (upValue != 0 && downValue != 0)
             {
-                DiastolicBPProgress = (decimal)(upDiBP / downDiBP) * 100;
+                progressValue = (upValue / downValue) * 100;
             }
-            
-
-            var progress = new HealthProgressDTO
-            {
-                WeightProgress = WeightProgress,
-                SystolicBPProgress = SystolicBPProgress,
-                DiastolicBPProgress = DiastolicBPProgress
-            };
+            progress.MetricType = metricType;
+            progress.ProgressValue = progressValue;
             return progress;
         }
+
     }
 }
+

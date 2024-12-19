@@ -8,17 +8,16 @@ namespace BLL.DTOs
 {
     public class TrendDTO
     {
-        public int CurrentWeight { get; set; }
-        public int CurrentSystolicBP { get; set; }
-        public int CurrentDiastolicBP { get; set; }
-        public decimal AvgWeight { get; set; }
-        public decimal AvgSystolicBP { get; set; }
-        public decimal AvgDiastolicBP { get; set; }
-        public int MaxWeight { get; set; }
-        public int MinWeight { get; set; }
-        public int MaxSystolicBP { get; set; }
-        public int MinSystolicBP { get; set; }
-        public int MaxDiastolicBP { get; set; }
-        public int MinDiastolicBP { get; set; }
+        //list of currentValues
+        public List<decimal> CurrentValues { get; set; }
+        //list of metric types
+        public List<string> MetricTypes { get; set; }
+        //list of average values
+        public List<decimal> AvgValues { get; set; }
+        //list of max values
+        public List<decimal> MaxValues { get; set; }
+        //list of min values
+        public List<decimal> MinValues { get; set; }
+
     }
 }
